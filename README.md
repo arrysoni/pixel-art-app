@@ -1,12 +1,74 @@
-# React + Vite
+🖼️ Pixel Art Drawing App
+A simple, interactive pixel art drawing tool built with React. Users can select colors and paint on a grid canvas, just like creating retro 8-bit pixel art. Built from scratch for learning and creativity! 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🚀 Features
+🎨 Click-to-paint pixels
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌈 Color picker with live preview
 
-## Expanding the ESLint configuration
+🧼 Clear/reset the canvas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Clean and modular React components
+
+⚡ Built with Vite for fast development
+
+🛠️ Tech Stack
+React (with Hooks)
+
+CSS Grid
+
+Vite
+
+Tailwind (optional if added)
+
+HTML5 / JavaScript (ES6+)
+
+📂 Project Structure
+bash
+Copy
+Edit
+pixel-art-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Canvas.jsx       # Renders the full pixel grid
+│   │   ├── Pixel.jsx        # Represents one clickable pixel
+│   │   └── ColorPicker.jsx  # Lets user choose a color
+│   ├── App.jsx              # App-level logic and state
+│   └── main.jsx
+├── package.json
+└── README.md
+
+🧑‍💻 Getting Started
+1. Clone this repo
+bash
+Copy
+Edit
+git clone https://github.com/your-username/pixel-art-app.git
+cd pixel-art-app
+
+3. Install dependencies
+bash
+Copy
+Edit
+npm install
+
+5. Run the dev server
+bash
+Copy
+Edit
+npm run dev
+The app should now be running at http://localhost:5173.
+
+🤓 Learning Goals
+This project was built as part of my journey to learn React and frontend development from scratch. It helped me understand:
+
+Component architecture
+
+State management (useState)
+
+Grid layout with CSS Grid
+
+Modular design in React
+
