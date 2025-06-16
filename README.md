@@ -1,8 +1,10 @@
-🖼️ Pixel Art Drawing App
+##🖼️ Pixel Art Drawing App
+
 A simple, interactive pixel art drawing tool built with React. Users can select colors and paint on a grid canvas, just like creating retro 8-bit pixel art. Built from scratch for learning and creativity! 🎨
 
 
 🚀 Features
+
 🎨 Click-to-paint pixels
 
 🌈 Color picker with live preview
