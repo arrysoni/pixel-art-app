@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-const Pixel = () => {
+const Pixel = ({ color, onClick }) => {
   return (
-    <div>Pixel</div>
-  )
-}
+    <div
+      onClick={onClick}
+      style={{
+        backgroundColor: color,
+        width: '20px',
+        height: '20px',
+        border: '1px solid #ccc',
+        cursor: 'pointer'
+      }}
+    />
+  );
+};
 
-export default Pixel
+export default Pixel;
