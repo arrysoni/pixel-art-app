@@ -70,7 +70,7 @@ Visit: `http://localhost:5173`
 ## 📸 Screenshot
 
 
-![Pixel Art Screenshot](<img width="392" alt="image" src="https://github.com/user-attachments/assets/3b15512b-a495-4106-a361-6ae03215161c" />
+![Pixel Art Screenshot](<img width="392" alt="image" src="https://github.com/arrysoni/pixel-art-app/blob/main/src/images/Screenshot%202025-06-16%20at%204.14.23%E2%80%AFPM.png" />
 )
 
 > You can save an artwork using screenshot tools. Export and drag-to-draw features coming soon.
