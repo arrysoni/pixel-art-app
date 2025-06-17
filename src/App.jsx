@@ -16,7 +16,7 @@ const App = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'flex-start',
+        justifyContent: 'center',
         minHeight: '100vh',
         width: '100%',
         backgroundColor: '#1e1e1e',
